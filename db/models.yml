@@ -1,0 +1,9 @@
+User
+ email: string
+ password: string
+ is_admin: boolean
+
+Job
+ title: text
+ job_id: integer
+ description: text

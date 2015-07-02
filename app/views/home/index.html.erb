@@ -6,24 +6,24 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>BroadReach Mobile and Web Development</title>
-    <link rel="stylesheet" media="screen" href="main.css">
+    <%= stylesheet_link_tag("main.css", media: "screen") %>
 
       <!-- From Oleose Eco Website -->
-    <link rel="stylesheet" href="eco.css">
+    <%= stylesheet_link_tag("eco.css") %>
 
       <!-- From Design Agency Website -->
-    <link rel="stylesheet" href="style.css">
+    <%= stylesheet_link_tag("style.css") %>
 
       <!-- From Shape Bootstrap Cyrus Studio Theme -->
-    <link rel="stylesheet" href="shape_bootstrap-cyrus_studio-style.css">
-    <link rel="stylesheet" href="shape_bootstrap-cyrus_studio-set.css">
+    <%= stylesheet_link_tag("shape_bootstrap-cyrus_studio-style.css") %>
+    <%= stylesheet_link_tag("shape_bootstrap-cyrus_studio-set.css") %>
 
       <!-- Bootstrap Core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <%= stylesheet_link_tag("bootstrap.min.css") %>
       <!-- Retina.js - Load first for faster HQ mobile images. -->
-    <script src="retina.min.js"></script>
+    <%= javascript_include_tag("retina.min.js") %>
       <!-- Font Awesome -->
-    <link href="font-awesome.min.css" rel="stylesheet" type="text/css">
+    <%= stylesheet_link_tag("font-awesome.min.css") %>
       <!-- Default Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
@@ -34,15 +34,15 @@
     <link href='http://fonts.googleapis.com/css?family=Sanchez:400italic,400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
       <!-- Plugin CSS -->
-    <link href="owl.carousel.css" rel="stylesheet" type="text/css">
-    <link href="owl.theme.css" rel="stylesheet" type="text/css">
-    <link href="owl.transitions.css" rel="stylesheet" type="text/css">
-    <link href="magnific-popup.css" rel="stylesheet" type="text/css">
-    <link href="background.css" rel="stylesheet" type="text/css">
-    <link href="animate.css" rel="stylesheet" type="text/css">
+    <%= stylesheet_link_tag("owl.carousel.css") %>
+    <%= stylesheet_link_tag("owl.theme.css") %>
+    <%= stylesheet_link_tag("owl.transitions.css") %>
+    <%= stylesheet_link_tag("magnific-popup.css") %>
+    <%= stylesheet_link_tag("background.css") %>
+    <%= stylesheet_link_tag("animate.css") %>
       <!-- Vitality Theme CSS -->
       <!-- Uncomment the color scheme you want to use. -->
-    <link href="vitality-blue.css" rel="stylesheet" type="text/css">
+    <%= stylesheet_link_tag("vitality-blue.css") %>
       <!-- <link href="vitality-aqua.css" rel="stylesheet" type="text/css"> -->
       <!-- <link href="vitality-blue.css" rel="stylesheet" type="text/css"> -->
       <!-- <link href="vitality-green.css" rel="stylesheet" type="text/css"> -->
@@ -790,35 +790,35 @@
       </div>
     </div>
       <!-- Core Scripts -->
-    <script src="jquery.js"></script>
-    <script src="bootstrap.min.js"></script>
+    <%= javascript_include_tag("jquery.js") %>
+    <%= javascript_include_tag("bootstrap.min.js") %>
       <!-- Plugin Scripts -->
-    <script src="jquery.easing.min.js"></script>
-    <script src="classie.js"></script>
-    <script src="cbpAnimatedHeader.js"></script>
-    <script src="owl.carousel.js"></script>
-    <script src="jquery.magnific-popup.min.js"></script>
-    <script src="core.js"></script>
-    <script src="transition.js"></script>
-    <script src="background.js"></script>
-    <script src="jquery.mixitup.js"></script>
-    <script src="wow.min.js"></script>
-    <script src="contact_me.js"></script>
-    <script src="jqBootstrapValidation.js"></script>
+    <%= javascript_include_tag("jquery.easing.min.js") %>
+    <%= javascript_include_tag("classie.js") %>
+    <%= javascript_include_tag("cbpAnimatedHeader.js") %>
+    <%= javascript_include_tag("owl.carousel.js") %>
+    <%= javascript_include_tag("jquery.magnific-popup.min.js") %>
+    <%= javascript_include_tag("core.js") %>
+    <%= javascript_include_tag("transition.js") %>
+    <%= javascript_include_tag("background.js") %>
+    <%= javascript_include_tag("jquery.mixitup.js") %>
+    <%= javascript_include_tag("wow.min.js") %>
+    <%= javascript_include_tag("contact_me.js") %>
+    <%= javascript_include_tag("jqBootstrapValidation.js") %>
       <!-- Vitality Theme Scripts -->
-    <script src="vitality.js"></script>
+    <%= javascript_include_tag("vitality.js") %>
 
       <!-- Oleose Eco Core Scripts -->
-    <script src="slick.min.js"></script>
-    <script src="placeholdem.min.js"></script>
-    <script src="jquery.themepunch.plugins.min.js"></script>
-    <script src="jquery.themepunch.revolution.min.js"></script>
-    <script src="waypoints.min.js"></script>
-    <script src="scripts.js"></script>
+    <%= javascript_include_tag("slick.min.js") %>
+    <%= javascript_include_tag("placeholdem.min.js") %>
+    <%= javascript_include_tag("jquery.themepunch.plugins.min.js") %>
+    <%= javascript_include_tag("jquery.themepunch.revolution.min.js") %>
+    <%= javascript_include_tag("waypoints.min.js") %>
+    <%= javascript_include_tag("scripts.js") %>
 
       <!-- Design Agency Scripts for Background Video Plugin -->
-    <script src="jquery.mb.YTPlayer.js"></script>
-    <script src="custom.js"></script>
+    <%= javascript_include_tag("jquery.mb.YTPlayer.js") %>
+    <%= javascript_include_tag("custom.js") %>
   </body>
 
 </html>

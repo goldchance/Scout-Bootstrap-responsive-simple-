@@ -1,0 +1,1 @@
+We have been given permission from the owner to use this template for academic purposes only. YOu do not have the right to use this template for commerical purposes. 

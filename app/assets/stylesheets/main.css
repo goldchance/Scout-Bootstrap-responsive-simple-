@@ -1,0 +1,64 @@
+#background_image-ja {
+    background-image: url('bg-header.jpg');
+}
+/*************/
+
+#cta-quote-ja {
+    background-image: url('iphone.jpg');
+    background-attachment: fixed;
+}
+
+/*************/
+
+#footer-ja {
+    background-image: url('bg-footer.jpg');
+    background-attachment: fixed;
+
+}
+
+/************/
+
+#pricing-ja {
+    background-image: url('mac.jpg');
+    background-attachment: fixed;
+}
+
+
+#big-team{
+
+}
+
+
+/* carousel images */
+
+
+#item_ja1 {
+    background-image: url('bg-1.jpg');
+}
+#item_ja2 {
+    background-image: url('bg-2.jpg');
+}
+#item_ja3 {
+    background-image: url('bg-3.jpg');
+}
+#item_ja4 {
+    background-image: url('bg-4.jpg');
+}
+
+/**** Portfolio GridView Background Images ****/
+
+#portfolioModal1 {
+    background-image: url('bg-1.jpg');
+}
+
+#portfolioModal2 {
+    background-image: url('bg-2.jpg');
+}
+
+#portfolioModal3 {
+    background-image: url('bg-3.jpg');
+}
+
+#portfolioModal4 {
+    background-image: url('bg-4.jpg');
+}
